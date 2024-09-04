@@ -3,13 +3,13 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-	app: vote
+    app: vote
   name: vote
 spec:
   minReadySeconds: 20
   replicas: 3
   template:
-	spec:
-	  containers:
-	  - image: schoolofdevops/vote:v4
-	    name: vote
+    spec:
+     containers:
+       - image: schoolofdevops/vote:v4
+         name: vote
