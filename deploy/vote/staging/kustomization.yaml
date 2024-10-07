@@ -9,3 +9,5 @@ patchesStrategicMerge:
 replicas:
  - name: vote
    count: 5
+
+image: iamsureshdockerhub/vote:v1 # {“$imagepolicy”: “flux-system:vote”}
